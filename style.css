@@ -2,6 +2,9 @@
     font-family: mars;
     src: url(fonts/Mars.ttf);
 }
+body{
+    background-color: #2f2f2f;
+}
 h1{
     font-family: mars;
     color: aliceblue;
@@ -12,5 +15,10 @@ h1{
     background-color: black;
     background-position: center;
     background-size: cover;
-
+}
+.card{
+    width: 18rem;
+}
+.card:hover{
+    width: 20rem;
 }

@@ -35,7 +35,6 @@ h1{
 }
 /* Estilos para cards del inicio*/
 .card{
-    height: 23rem;
     background-color: whitesmoke;
     opacity: 50%;
 }

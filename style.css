@@ -3,7 +3,7 @@
     src: url(fonts/Mars.ttf);
 }
 body{
-    background-color: #2f2f2f;
+    background-color: #413F42;
 }
 h2{
     font-family: mars;
@@ -27,7 +27,7 @@ h1{
 }
 /* Estilos para el carousel de fotos*/
 .carousel-item{
-    height:90vh;
+    height:85vh;
     width: 100vw;
     background-color: black;
     background-position: center;
@@ -35,7 +35,7 @@ h1{
 }
 /* Estilos para cards del inicio*/
 .card{
-    width: 15rem;
+    height: 23rem;
     background-color: whitesmoke;
     opacity: 50%;
 }

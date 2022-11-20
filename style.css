@@ -1,0 +1,15 @@
+@font-face {
+    font-family: mars;
+    src: url(fonts/Mars.ttf);
+}
+h1{
+    font-family: mars;
+    color: aliceblue;
+}
+.carousel-item{
+    height: 30rem;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+
+}

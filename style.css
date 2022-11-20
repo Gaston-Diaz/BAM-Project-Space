@@ -7,8 +7,8 @@ h1{
     color: aliceblue;
 }
 .carousel-item{
-    height:32rem;
-    width: 70rem;
+    height:90vh;
+    width: 100vw;
     background-color: black;
     background-position: center;
     background-size: cover;

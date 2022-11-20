@@ -5,10 +5,27 @@
 body{
     background-color: #2f2f2f;
 }
+h2{
+    font-family: mars;
+    color: aliceblue;
+}
 h1{
     font-family: mars;
     color: aliceblue;
 }
+/* Estilos del titulo*/
+.title{
+    display: flex;
+    align-items: baseline;
+}
+.nav{
+    color: aliceblue;
+}
+.navbar-toggler-icon{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+/* Estilos para el carousel de fotos*/
 .carousel-item{
     height:90vh;
     width: 100vw;
@@ -16,9 +33,17 @@ h1{
     background-position: center;
     background-size: cover;
 }
+/* Estilos para cards del inicio*/
 .card{
-    width: 18rem;
+    width: 15rem;
+    background-color: whitesmoke;
+    opacity: 50%;
 }
 .card:hover{
-    width: 20rem;
+    opacity: 100%;
+    transition: 1s;
 }
+.card-img-top{
+    height: 15rem;
+}
+/**/

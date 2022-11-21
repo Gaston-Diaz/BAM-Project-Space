@@ -3,7 +3,7 @@
     src: url(fonts/Mars.ttf);
 }
 body{
-    background-color: #413F42;
+    background-color: black;
 }
 h2{
     font-family: mars;
@@ -11,6 +11,9 @@ h2{
 }
 h1{
     font-family: mars;
+    color: aliceblue;
+}
+p{
     color: aliceblue;
 }
 /* Estilos del titulo*/

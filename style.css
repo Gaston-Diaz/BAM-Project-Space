@@ -64,6 +64,16 @@ p{
 .textB{
     font-size: 15vw;
 }
+.modal-header{
+  background-color:black;
+}
+.modal-body{
+  background-image: url(img/starry-night-sky.jpg);
+  background-size: cover;
+}
+.modal-footer{
+  background-color:black;
+}
 
 .glitch {
     color: white;

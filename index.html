@@ -10,25 +10,30 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="title">
-                <h2>Space</h2>
-                <h1>Y</h1>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link nav" href="#">Features</a>
-                    <a class="nav-link nav" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">About</a>
-                    <a class="nav-link nav" href="#">Login</a>
-                </div>
-            </div>
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    
+        <div class="title">
+            <h2>Space</h2>
+            <h1>Y</h1>
         </div>
-    </nav>
+    
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link nav" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            style="cursor: pointer;">About</a>
+                        <a class="nav-link nav" href="#">Login</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -133,4 +138,7 @@
         });
     </script>
 </body>
+<footer>
+    <h1>hola</h1>
+</footer>
 </html>
